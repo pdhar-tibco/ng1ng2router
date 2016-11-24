@@ -1,13 +1,13 @@
 import {Component} from '@angular/core';
 
 @Component({
-  selector: 'settings',
+  selector: 'hello',
   template: `
-    <h1>Settings</h1>
-    <a routerLink="pagesize">Page Size Settings</a>
+    <h1>Hello</h1>
+    <a routerLink="../world">World</a>
     <a routerLink="../">Back</a>
     <a routerLink="/messages/inbox">Inbox</a>
   `
 })
-export class SettingsCmp {
+export class HelloCmp {
 }

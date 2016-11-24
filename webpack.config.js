@@ -28,7 +28,14 @@ module.exports = {
 	  {
         test: /\.css$/,
         loader: 'style-loader'
-      }
+      },
+      // {
+      //   test: /\.ts$/,
+      //   loaders: [
+      //       'awesome-typescript-loader',
+      //       'angular2-router-loader'
+      //   ]
+      // }
     ]
   },
 
